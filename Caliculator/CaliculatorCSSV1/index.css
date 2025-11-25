@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    margin: auto;
+    border-collapse: seperate;
+    width: 80%;
+    height: 80%;
+}
+
+th {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 5% 0 0;
+    font-size: 2em;
+    text-align: right;
+}
+
+td {
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.numrow,
+.num {
+    background-color: #333333;
+}
+
+.operationsrow {
+    background-color: rgb(42, 90, 195);
+}
+
+#equals {
+    background-color: rgb(10, 28, 66);
+}
